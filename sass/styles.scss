@@ -554,7 +554,12 @@ Features-stack
 .events {
   .leftcol {
     padding-right: 100px;
+  }
+  .middlecol {
+    padding-right: 100px;
+    padding-left: 100px;
     border-right: solid 1px $keyline-color;
+    border-left: solid 1px $keyline-color;
   }
   .rightcol {
     padding-left: 100px;
