@@ -47,11 +47,12 @@ body {
   outline: none !important;
 }
 ul, ol {
-  margin: 0;
-  padding: 0;
+  margin-left: 20px;
+  padding-left: 20px;
+  line-height: 1.5;
 }
 ul li {
-  list-style: none;
+  list-style-type: disc;
 }
 section .header {
   padding-bottom: 30px;
@@ -372,6 +373,15 @@ header {
   transform: translateX(-50%);
 }
 
+.custom-text {
+  text-align: left;
+  padding: 200px; /* Adjust padding as needed */
+}
+
+.custom-text h1, .custom-text h2 {
+  text-align: center;
+}
+
 /* ==========================================================================
 Social share buttons
 ========================================================================== */
@@ -554,14 +564,14 @@ Features-stack
 .events {
   .leftcol {
     padding-right: 100px;
+    border-right: solid 1px $keyline-color;
   }
   .middlecol {
     padding-right: 100px;
     padding-left: 100px;
-    border-right: solid 1px $keyline-color;
-    border-left: solid 1px $keyline-color;
   }
   .rightcol {
+    border-left: solid 1px $keyline-color;
     padding-left: 100px;
   }
 
