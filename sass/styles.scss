@@ -874,6 +874,21 @@ RSVP form
   }
 }
 
+.rsvp h3 {
+  padding: 45px; /* Adjust padding as needed */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .rsvp h3 {
+    padding-top: 200px; /* Adjust padding as needed for mobile */
+  }
+
+  .rsvp {
+    padding-top: 20px; /* Ensure enough space between the map and the RSVP div */
+  }
+}
+
 /* ==========================================================================
 Footer
 ========================================================================== */
