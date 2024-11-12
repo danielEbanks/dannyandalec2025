@@ -564,16 +564,14 @@ Features-stack
 ========================================================================== */
 .events {
   .leftcol {
-    padding-right: 100px;
+    padding-right: 10px;
     border-right: solid 1px $keyline-color;
   }
   .middlecol {
-    padding-right: 100px;
-    padding-left: 100px;
   }
   .rightcol {
     border-left: solid 1px $keyline-color;
-    padding-left: 100px;
+    padding-left: 10px;
   }
 
   .time {
