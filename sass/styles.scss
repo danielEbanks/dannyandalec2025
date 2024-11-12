@@ -383,6 +383,13 @@ header {
   padding-left: 0;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .custom-text {
+    padding-left: 10px; /* Remove padding on mobile */
+    padding-right: 10px; /* Remove padding on mobile */
+  }
+}
 /* ==========================================================================
 Social share buttons
 ========================================================================== */
