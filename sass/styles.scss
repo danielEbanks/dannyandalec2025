@@ -589,6 +589,30 @@ Features-stack
   }
 }
 
+@media (max-width: 767px) {
+  .events { 
+    .rightcol {
+      padding-left: 0px; /* Add padding for mobile */
+      padding-right: 1px; /* Add padding for mobile */
+      text-align: left; /* Ensure left alignment */
+      border: none; /* Remove borders for better mobile layout */
+    }
+
+    .middlecol {
+      padding-left: 5px; /* Add padding for mobile */
+      padding-right: 1px; /* Add padding for mobile */
+      text-align: left; /* Ensure left alignment */
+      border: none; /* Remove borders for better mobile layout */
+    }
+
+    .leftcol {
+      padding-left: 5px; /* Add padding for mobile */
+      padding-right: 1px; /* Add padding for mobile */
+      text-align: left; /* Ensure left alignment */
+      border: none; /* Remove borders for better mobile layout */
+    }
+ }
+}
 /* ==========================================================================
 .blog
 ========================================================================== */
