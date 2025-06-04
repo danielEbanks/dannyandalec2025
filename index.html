@@ -159,7 +159,7 @@
                 <div class="wp3">
                     <p><strong>12th September</strong></p>
 
-                    <h5>Welcome Party <span class="time">Time and Location TBD</span></h5>
+                    <h5>Welcome Party <span class="time">8:00 - 10:00 PM, Strathmore Vanderbilt Country Club</span></h5>
                     <p>We would like to Welcome all of our guests.</p>
                 </div>
             </div>
@@ -167,18 +167,11 @@
                 <div class="wp4">
                     <p><strong>13th September</strong></p>
 
-                    <h5>Ceremony and Reception <span class="time">Time TBD</span></h5>
+                    <h5>Ceremony and Reception <span class="time">5:00 PM</span></h5>
                     <p>Wedding Ceremony to be held at the Hempstead House in Sands Point Reception to Follow.</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12 rightcol">
-                <div class="wp5">
-                    <p><strong>14th September</strong></p>
 
-                    <h5>Farewell Brunch <span class="time">Time TBD</span></h5>
-                    <p>Join us for a farewell brunch at the Great Neck Inn.</p>
-                </div>
-            </div>
     </div>
         <div class="row section-padding">
             <div class="col-md-4 col-md-offset-4 text-center">
@@ -200,7 +193,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                     <h3 class="text-center section-padding">Dress Code</h3>
-                    <h5>Welcome Party <span class="time">Time TBD</span></h5>
+                    <h5>Welcome Party <span class="time">8:00 - 10:0o PM, Strathmore Vanderbilt Country Club</span></h5>
                     <p>
                         <strong>Business Casual/Cocktail Attire</strong>
                     </p>
@@ -311,7 +304,54 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>RSVP</h3>
-                <p>RSVP Instructions to follow with Invitations</p>
+                <p>We kindly ask that one person respond per party and provide a contact email for the whole party. We would greatly appreciate if you could RSVP before August 1, 2025</p>
+                <form id="rsvp-form" class="rsvp-form"
+                                      action=""
+                                      method="POST">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-input-group">
+                                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                                     placeholder="Contact email"
+                                                                                     required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-input-group">
+                                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                                 placeholder="Contact Name"
+                                                                                 required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-input-group">
+                                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
+                                                                                  max="5"
+                                                                                  placeholder="# of Guests in Party"
+                                                                                  required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-input-group">
+                                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                                class="" min="0"
+                                                                                placeholder="Party Last Name"
+                                                                                required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12" id="alert-wrapper"></div>
+                                    </div>
+                                    <button class="btn-fill rsvp-btn">
+                                        Submit
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
 
                 
 </section>
