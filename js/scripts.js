@@ -214,8 +214,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        if (MD5($('#invite_code').val()) == 'b0e53b10c1f55ede516b240036b88f40'
-            && MD5($('#invite_code').val()) == '2ac7f43695eb0479d5846bb38eec59cc') {
+        if (MD5($('#invite_code').val()) == "ebanks") {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycbzngyNx9nCIN08jbimw0vf9LPrgi6_3cES2g6xi1yCmwbdJHPWkxMqQgcuQN668UzWMbg/exec', data)
