@@ -194,7 +194,7 @@ $(document).ready(function () {
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Sep 14, 2025 00:00'),
+            end: new Date('Sep 14, 2025 23:30'),
 
             // Event Address
             address: 'Hempstead House, Sands Point',
@@ -215,7 +215,7 @@ $(document).ready(function () {
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
    
-        $.post('https://script.google.com/macros/s/AKfycbzngyNx9nCIN08jbimw0vf9LPrgi6_3cES2g6xi1yCmwbdJHPWkxMqQgcuQN668UzWMbg/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbzkjX_wEjKFZWT3a7Won7ivCu3M0P-RveiJY6OIk13PN1tmF8R9S9v7Fi1kZE1X7SxnOg/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {
